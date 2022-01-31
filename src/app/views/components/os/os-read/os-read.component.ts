@@ -19,7 +19,7 @@ export class OsReadComponent implements AfterViewInit {
 
   lista: OS [] = [];
 
-  displayedColumns: string[] = ['tecnico', 'cliente', 'endereco', 'abertura', 'fechamento', 'prioridade', 'status', 'acao'];
+  displayedColumns: string[] = ['tecnico', 'cliente', 'endereco', 'abertura', 'prioridade', 'status', 'acao'];
   dataSource = new MatTableDataSource<OS>(this.lista);
   clickedRows = new Set<OS>();
 

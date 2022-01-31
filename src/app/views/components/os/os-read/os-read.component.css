@@ -35,18 +35,16 @@ table {
     color: rgb(221, 208, 18);
 }
 
+.mat-column-cliente {
+    width: 150px;
+ }
+
 .mat-column-endereco {
     width: 200px;
-    padding-right: 100px;
-    text-align: center;
  }
 
  .mat-column-prioridade {
     text-align: center;
-}
-
- .mat-column-status {
-     text-align: center;
  }
 
 .mat-column-acao {
