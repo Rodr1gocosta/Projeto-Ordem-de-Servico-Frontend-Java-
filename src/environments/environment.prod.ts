@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://os-servico.herokuapp.com'
+  baseUrl: 'http://localhost:8081'
 };
